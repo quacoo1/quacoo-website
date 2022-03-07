@@ -1,25 +1,46 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
+  import { ref, reactive } from "vue"
+  import TheNavigationBar from "./components/TheNavigationBar.vue"
 
+  
 </script>
 
 <template>
-  KWAKU BOATENG'S WEBSITE
+  <TheNavigationBar />
+  <div class="content"><router-view /></div>
 </template>
 
 <style lang="scss"> 
-  $type_base_font: 'Roboto', sans-serif;
-  $color_grey:  #F6F7F7;
-  $color_primary: #3C2BFE;
-  $color_secondary: #2DCAED;
-  $color_tertiary: #151B24;
-  $color_background: $color_tertiary;
-  
   #app{
     color: $color_grey;
-    font:100% $type_base_font;
+    font:100% $font_base_type;
     background: $color_background;
     min-height:100%;
+  }
+
+  .content{
+    max-width:1024px;
+    margin: 0 auto;
+  }
+
+  .button{
+    cursor: pointer;
+    color:$color_grey;
+
+    font-family:$font_base_type;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+    background: $color_secondary;
+    border:none;
+    border-radius: .5em;
+    padding: 1em 2em;
+
+    text-transform: capitalize;
+
+    &:hover{
+      background: rgba($color_secondary,.75);
+      transition: background .3s ease-out;
+    }
   }
 </style>

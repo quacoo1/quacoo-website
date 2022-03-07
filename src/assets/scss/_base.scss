@@ -1,0 +1,16 @@
+//colors
+$color_grey:  #F6F7F7;
+$color_primary: #0ACF83;
+$color_secondary: #227C9D;
+$color_tertiary: #151B24;
+$color_background: $color_tertiary;
+$color_background_hover: rgba($color_grey,0.2);
+
+
+//fonts
+$font_base_type: 'Ubuntu', sans-serif;;
+$font_color: $color_grey;
+$font_color_link: rgba($font_color,.5);
+
+//borders
+$seperator: solid 4px $color_primary;
