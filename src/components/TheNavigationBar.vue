@@ -29,6 +29,7 @@
         display: flex;
         padding:0 2em;
        
+        background: $color_background;
         border-bottom: solid 1px rgba($color_grey,.25);
 
         &__name{

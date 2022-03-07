@@ -15,8 +15,9 @@
 
 <style lang="scss">
     .footer{
+
         padding: 2em;
-         text-align: center;
+        text-align: center;
 
 
         &__links{
