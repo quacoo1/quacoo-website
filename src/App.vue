@@ -1,6 +1,7 @@
 <script setup>
   import { ref, reactive } from "vue"
   import TheNavigationBar from "./components/TheNavigationBar.vue"
+  import TheFooter from "./components/TheFooter.vue"
 
   
 </script>
@@ -8,6 +9,7 @@
 <template>
   <TheNavigationBar />
   <div class="content"><router-view /></div>
+  <TheFooter />
 </template>
 
 <style lang="scss"> 

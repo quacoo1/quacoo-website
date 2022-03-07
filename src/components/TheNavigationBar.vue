@@ -1,6 +1,5 @@
 <script>
- export default {
- }
+
 </script>
 
 <template>
@@ -23,9 +22,13 @@
     }
 
     .navigation{
+        position: sticky;
+        top:0;
+
         height: 63px;
         display: flex;
         padding:0 2em;
+       
         border-bottom: solid 1px rgba($color_grey,.25);
 
         &__name{
