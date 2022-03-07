@@ -29,7 +29,7 @@
     .hero{
     
         padding:3em 2em;
-        padding-top: 6em;
+        padding-top: 0;
         border-bottom: solid 1px rgba($color_grey,.25);
 
         &__wrapper{

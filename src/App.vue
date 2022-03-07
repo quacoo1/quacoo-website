@@ -19,6 +19,7 @@
   }
 
   .content{
+    padding-top:6em;
     max-width:1024px;
     margin: 0 auto;
   }

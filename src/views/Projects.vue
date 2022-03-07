@@ -1,5 +1,5 @@
 <template>
     <div>
-        blog
+        projects
     </div>
 </template>

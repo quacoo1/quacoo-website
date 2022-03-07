@@ -1,5 +1,5 @@
 <template>
     <div>
-        blog
+        contact
     </div>
 </template>

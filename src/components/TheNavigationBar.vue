@@ -9,6 +9,8 @@
         <ul class="navigation__links">
             <li><router-link class="navigation__link" :to="{name:'Home'}">Home</router-link></li>
             <li><router-link class="navigation__link" :to="{name:'Blog'}">Blog</router-link></li>
+            <li><router-link class="navigation__link" :to="{name:'Projects'}">Projects</router-link></li>
+            <li><router-link class="navigation__link" :to="{name:'Contact'}">Contact</router-link></li>
         </ul>
        
     </nav>
