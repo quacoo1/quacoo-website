@@ -6,9 +6,9 @@
     <footer class="footer">
         <p>&copy; 2022 Kwaku Boateng</p>
         <ul class="footer__links">
-            <li><a class="footer__link" href="http://github.com/quacoo1"><i class="fa-brands fa-github"></i></a></li>
-            <li><a class="footer__link" href=""><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a class="footer__link" href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="footer__link" href="https://github.com/quacoo1"><i class="fa-brands fa-github"></i></a></li>
+            <li><a class="footer__link" href="https://twitter.com/quacoo1"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a class="footer__link" href="https://instagram.com/quacoo_1"><i class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
 </template>
