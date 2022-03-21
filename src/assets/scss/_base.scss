@@ -13,4 +13,5 @@ $font_color: $color_grey;
 $font_color_link: rgba($font_color,.5);
 
 //borders
-$seperator: solid 4px $color_primary;
+$seperator: solid 1px rgba($color_grey,.25);
+// $seperator: solid 4px $color_primary;

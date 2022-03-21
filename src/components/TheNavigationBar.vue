@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <template>
     <nav class="navigation">
         <div class="navigation__name">Quacoo👽</div>

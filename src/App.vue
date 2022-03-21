@@ -7,9 +7,9 @@
 </script>
 
 <template>
-  <TheNavigationBar />
+  <the-navigation-bar />
   <div class="content"><router-view /></div>
-  <TheFooter />
+  <the-footer />
 </template>
 
 <style lang="scss"> 
@@ -21,9 +21,26 @@
   }
 
   .content{
-    padding-top:6em;
+    padding-top:3em;
     max-width:1024px;
     margin: 0 auto;
+  }
+
+  .wrapper{
+    position: relative;
+    overflow: hidden;
+
+    &--bordered-radius{
+      border: $seperator;
+      border-radius: 100em;
+    }
+  }
+
+  .title {
+    font-size:2em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom:1em;
   }
 
   .button{
