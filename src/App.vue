@@ -18,10 +18,10 @@
     font:100% $font_base_type;
     background: $color_background;
     min-height:100%;
+    
   }
 
   .content{
-    padding-top:3em;
     max-width:1024px;
     margin: 0 auto;
   }

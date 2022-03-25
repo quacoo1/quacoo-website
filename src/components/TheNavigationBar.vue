@@ -4,7 +4,7 @@
         <ul class="navigation__links">
             <li><router-link class="navigation__link" :to="{name:'Home'}">Home</router-link></li>
             <li><router-link class="navigation__link" :to="{name:'Blog'}">Blog</router-link></li>
-            <li><router-link class="navigation__link" :to="{name:'Projects'}">Projects</router-link></li>
+            <!-- <li><router-link class="navigation__link" :to="{name:'Projects'}">Projects</router-link></li> -->
             <li><router-link class="navigation__link" :to="{name:'Contact'}">Contact</router-link></li>
         </ul>
        
@@ -21,12 +21,14 @@
         position: sticky;
         top:0;
 
-        height: 63px;
+        height: $navigation-height;
         display: flex;
         padding:0 2em;
        
         background: $color_background;
         border-bottom: solid 1px rgba($color_grey,.25);
+
+        z-index: 999;
 
         &__name{
             @extend %flex-full-height;
