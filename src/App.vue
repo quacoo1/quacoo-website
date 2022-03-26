@@ -27,6 +27,15 @@ import TheFooter from "./components/TheFooter.vue";
   position: relative;
   overflow: hidden;
 
+  &--flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &--bottom-space {
+    padding-bottom: $space-medium;
+  }
+
   &--bordered-radius {
     border: $seperator;
     border-radius: 100em;
@@ -37,14 +46,12 @@ import TheFooter from "./components/TheFooter.vue";
   font-size: 2em;
   font-weight: bold;
   text-transform: capitalize;
-  margin-bottom: 1rem;
 }
 
 .button {
   cursor: pointer;
   color: $color_grey;
 
-  font-family: $font_base_type;
   font-weight: bold;
   letter-spacing: 1px;
 
@@ -58,6 +65,13 @@ import TheFooter from "./components/TheFooter.vue";
   &:hover {
     background: rgba($color_secondary, 0.75);
     transition: background 0.3s ease-out;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    height: 2.25rem;
   }
 }
 </style>

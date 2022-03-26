@@ -2,13 +2,18 @@
 import { ref, reactive } from "vue";
 import PostCard from "../components/PostCard.vue";
 import PostTagsFilers from "../components/PostTagFilters.vue";
+import PostSearch from "../components/PostSearch.vue";
 
 const tags = reactive(["research", "JavaScript", "WebG", "vue"]);
+const searchQuery = ref("sing");
 </script>
 
 <template>
   <div class="blog-header">
-    <h1 class="title">Blog Posts</h1>
+    <div class="wrapper wrapper--flex wrapper--bottom-space">
+      <h1 class="title" :style="{ 'white-space': 'nowrap' }">Blog Posts</h1>
+      <post-search v-model="searchQuery" />
+    </div>
     <post-tags-filers :tags="tags" />
   </div>
   <div class="posts">

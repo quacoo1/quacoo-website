@@ -3,6 +3,7 @@ $color_grey:  #F6F7F7;
 $color_primary: #0ACF83;
 $color_secondary: #227C9D;
 $color_tertiary: #151B24;
+$color_danger:#963723;
 $color_background: $color_tertiary;
 $color_background_hover: rgba($color_grey,0.2);
 
@@ -18,3 +19,6 @@ $seperator: solid 1px rgba($color_grey,.25);
 
 //height
 $navigation-height: 63px;
+
+//space
+$space-medium:1rem;
