@@ -54,9 +54,8 @@ const scrollTagsRight = () => {
 <style lang="scss">
 .post-tags {
   display: flex;
-  height: 63px;
 
-  padding: 0 2.5em;
+  padding: 0.5em 2em;
 
   align-items: center;
 
@@ -75,7 +74,7 @@ const scrollTagsRight = () => {
     position: absolute;
 
     display: flex;
-    width: 3.5em;
+    width: 3em;
     justify-content: center;
     align-items: center;
 
