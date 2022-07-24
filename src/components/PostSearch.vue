@@ -43,12 +43,10 @@ const searchRevealed = ref(false);
   &__input {
     font-family: $font_base_type;
     font-size: 1rem;
-    color: rgba($color_grey, 0.75);
+    color:$color_grey;
     padding: 0 1em;
-    border: solid 1px;
-    border-radius: 0.5em;
-    border: none;
-    background: rgba($color_secondary, 0.25);
+    border: $seperator;
+    background: transparent;
     height: 2.25rem;
     &:focus {
       outline: none;

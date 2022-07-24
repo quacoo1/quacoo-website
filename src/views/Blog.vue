@@ -10,8 +10,8 @@ const searchQuery = ref("sing");
 
 <template>
   <div class="blog-header">
-    <div class="wrapper wrapper--flex wrapper--bottom-space">
-      <h1 class="title" :style="{ 'white-space': 'nowrap' }">Blog Posts</h1>
+    <div class="wrapper wrapper--flex">
+      <h1 class="title title--small" :style="{ 'white-space': 'nowrap' }">Blog Posts</h1>
       <post-search v-model="searchQuery" />
     </div>
     <post-tags-filers :tags="tags" />
@@ -28,7 +28,7 @@ const searchQuery = ref("sing");
   position: sticky;
   top: $navigation-height;
   background: $color_background;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 .posts {
   // display: grid;

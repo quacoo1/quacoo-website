@@ -27,13 +27,11 @@
   border: solid 1px rgba($color_grey, 0.25);
   padding: 1em;
   margin-bottom: 2em;
-  border-radius: 0.5em;
 
   &__image {
     display: flex;
     overflow: hidden;
     height: max-content;
-    border-radius: 0.5em;
   }
 
   &__content {

@@ -30,7 +30,7 @@ const scrollTagsRight = () => {
 </script>
 
 <template>
-  <div class="wrapper wrapper--bordered-radius">
+  <div class="wrapper wrapper--bordered">
     <button class="post-tags__button post-tags__button--left" @click="scrollTagsLeft">
       <i class="fas fa-chevron-left"></i>
     </button>
@@ -104,8 +104,6 @@ const scrollTagsRight = () => {
   border: solid 1px rgba($color_grey, 0.25);
   margin: 0 0.5em;
   padding: 0.25em 1.25em;
-
-  border-radius: 100em;
 
   &--selected {
     color: $color_background;
