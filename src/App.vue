@@ -43,6 +43,13 @@ body{
     margin-top:.5em;
     border: $seperator;
   }
+  &--loader{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 8em 0;
+    padding-top: 10em;
+  }
 }
 
 .title {
