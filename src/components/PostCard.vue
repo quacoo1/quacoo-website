@@ -1,4 +1,16 @@
-<script></script>
+<script setup>
+  import { toRefs } from "vue";
+
+  const props = defineProps({
+    postData: Object,
+  })
+
+  const { postData } = toRefs(props)
+
+  const date = new Date(postData.value.date.seconds)
+
+
+</script>
 
 <template>
   <div class="postcard">
@@ -8,12 +20,13 @@
       </figure>
     </div>
     <div class="postcard__content">
-      <a href="#" class="postcard__name">Blog Name</a>
-      <!-- <p class="postcard__description"> <span class="postcard__date">12/05/21</span>  <span class="postcard__tag">tag</span></p> -->
+      <a href="#" class="postcard__name">{{ postData.name }}</a>
+      <p class="postcard__description"> <span class="postcard__date">
+        {{ date }}
+      </span> </p>
+      <!-- <span class="postcard__tag">tag</span> -->
       <p class="postcard__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem in nam,
-        consectetur, obcaecati quam sit ipsa eveniet recusandae placeat, cum illo eos
-        ducimus neque beatae explicabo et sapiente cupiditate laboriosam.
+        {{ postData.content }}
       </p>
     </div>
   </div>

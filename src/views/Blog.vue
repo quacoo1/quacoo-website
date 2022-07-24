@@ -37,7 +37,8 @@ const searchQuery = ref("");
   
     <div class="posts" v-for="post in posts">
 
-      <post-card />
+      <post-card :post-data="post"/>
+    
     </div>
 
   </template>
